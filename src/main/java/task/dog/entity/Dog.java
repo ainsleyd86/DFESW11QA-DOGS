@@ -8,7 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class springDog {
+public class Dog {
 
 
 
@@ -42,11 +42,11 @@ public class springDog {
             private String gender;
 
             //Default constructor
-            public springDog() {}
+            public Dog() {}
 
             //For creating Dogs
 
-    public springDog(int age, String name, String breed, String weight, String gender) {
+    public Dog(int age, String name, String breed, String weight, String gender) {
         this.age = age;
         this.name = name;
         this.breed = breed;
@@ -57,7 +57,7 @@ public class springDog {
 
     //For testing
 
-    public springDog(long id, int age, String name, String breed, String weight, String gender) {
+    public Dog(long id, int age, String name, String breed, String weight, String gender) {
         this.id = id;
         this.age = age;
         this.name = name;
@@ -139,7 +139,7 @@ public class springDog {
                 if (getClass() != obj.getClass()) {
                     return false;
                 }
-                springDog other = (springDog) obj;
+                Dog other = (Dog) obj;
                 return age == other.age && Objects.equals(name, other.name) && Objects.equals(breed, other.breed) && Objects.equals(weight, other.weight) && Objects.equals(gender, other.gender);
 
             }
