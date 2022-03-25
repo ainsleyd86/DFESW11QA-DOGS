@@ -1,3 +1,0 @@
-# DFESW11QA-DOGS
-..
-.
