@@ -10,8 +10,6 @@ import javax.persistence.Id;
 @Entity
 public class Dog {
 
-
-
 //import javax.validation.constraints.Max;
 //import javax.validation.constraints.Min;
 
@@ -22,21 +20,15 @@ public class Dog {
             @GeneratedValue(strategy = GenerationType.IDENTITY)
             private long id;
 
-            //Min = minimum number allowed, Max = maximum number allowed
             @Column
-     /*   @Min(1)
-        @Max(15)*/
             private int age;
 
             //unique name, CANT be null
             @Column(unique = true, nullable = false)
-            private String name;
+            private  String name;
 
             @Column
-            private String breed;
-
-            @Column
-            private String weight;
+            private  String breed;
 
             @Column
             private String gender;
@@ -45,25 +37,25 @@ public class Dog {
             public Dog() {}
 
             //For creating Dogs
-
-    public Dog(int age, String name, String breed, String weight, String gender) {
+    public Dog(int age, String name, String breed, String gender) {
         this.age = age;
         this.name = name;
         this.breed = breed;
-        this.weight = weight;
         this.gender = gender;
     }
 
 
     //For testing
-
-    public Dog(long id, int age, String name, String breed, String weight, String gender) {
+    public Dog(long id, int age, String breed,  String gender, String name) {
         this.id = id;
         this.age = age;
-        this.name = name;
         this.breed = breed;
-        this.weight = weight;
         this.gender = gender;
+        this.name = name;
+
+    }
+
+    public Dog(int id, int age,  String breed, String gender,String name) {
     }
 
     //Getters and Setters
@@ -83,6 +75,22 @@ public class Dog {
                 this.age = age;
             }
 
+            public String getBreed() {
+            return breed;
+            }
+
+            public void setBreed(String breed) {
+            this.breed = breed;
+            }
+
+            public String getGender() {
+            return gender;
+            }
+
+            public void setGender(String gender) {
+            this.gender = gender;
+            }
+
             public String getName() {
                 return name;
             }
@@ -91,33 +99,9 @@ public class Dog {
                 this.name = name;
             }
 
-            public String getBreed() {
-                return breed;
-            }
-
-            public void setBreed(String breed) {
-                this.breed = breed;
-            }
-
-            public String getWeight() {
-                return weight;
-            }
-
-            public void setWeight(String weight) {
-                this.weight = weight;
-            }
-
-            public String getGender() {
-                return gender;
-            }
-
-            public void setGender(String gender) {
-                this.gender = gender;
-            }
-
             @Override
             public String toString() {
-                return "Dog [id=" + id + ", age=" + age + ", name=" + name + ", breed=" + breed + weight + ",gender"
+                return "Dog [id=" + id + ", age=" + age + ",  breed=" + breed + ",gender= "+ gender + ",name=" + name
                         + "]";
             }
 
@@ -125,7 +109,7 @@ public class Dog {
             //More for testing when comparing objects match
             @Override
             public int hashCode() {
-                return Objects.hash(age, name, breed ,weight, gender);
+                return Objects.hash(age,breed,gender,name);
             }
 
             @Override
@@ -140,7 +124,7 @@ public class Dog {
                     return false;
                 }
                 Dog other = (Dog) obj;
-                return age == other.age && Objects.equals(name, other.name) && Objects.equals(breed, other.breed) && Objects.equals(weight, other.weight) && Objects.equals(gender, other.gender);
+                return age == other.age && Objects.equals (breed, other.breed) && Objects.equals(gender, other.gender) && Objects.equals(name, other.name);
 
             }
         }
