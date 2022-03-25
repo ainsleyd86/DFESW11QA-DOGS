@@ -34,6 +34,4 @@ Now for the (screenshots):
 
 -------------
 
-
 The link to my Jira board:
-
