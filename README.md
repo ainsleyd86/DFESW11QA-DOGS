@@ -21,10 +21,11 @@ I would then go to external sources such as youtube to help clear it up.
 What went well? What didn't go as planned?
 
 i think overall the whole thing went well, given the parts that i missed out on. 
-i understood almost everything from weeks 1-5/6. i found the learning was easy as i was at home and the tutors was very very engaging and helpful. 
-The parts that werent so good was the java sections (the main chunk of it). 
+i understood almost everything from weeks 1-5/6. i found the learning was easy as i was at home and the tutors was very very engaging and helpful. i managed to get an understanding of postman,spring and the majority of java via intellij.
+The parts that werent so good was some of the java sections and testing, i didnt manage to get round to using mockito. 
 Luckily the tutor and a fellow member on the course took time to talk me through it and help me when and where i needed it. 
 I managed to get a good understanding of it all (although theres still a fair bit of cinfusion) but time has restricted me to how much i could get done.
+i was unable to add a .jar file as my tests were failing and i managed 53% coverage. (see screenshots)
 
 ----------
 Any improvements for the project next time?
