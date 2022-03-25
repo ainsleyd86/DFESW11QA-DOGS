@@ -36,4 +36,17 @@ if i had time to understand more i would defintely add some more bells and whist
 ----------
 Screenshots:
 
+<img width="1440" alt="Read By ID Postman" src="https://user-images.githubusercontent.com/97948282/160137580-9b6d6ee3-4860-4349-9248-c129941042b9.png">
+<img width="1440" alt="ReadAll Postman" src="https://user-images.githubusercontent.com/97948282/160137598-7b947169-cdbb-4fba-bb02-4edea2a11b22.png">
+<img width="1440" alt="Update Postman" src="https://user-images.githubusercontent.com/97948282/160137605-f407e8e8-dc87-4b6d-b547-b93afa47493b.png">
+<img width="1440" alt="MySQL Delete Showing" src="https://user-images.githubusercontent.com/97948282/160137617-5e713c8f-b6c2-4f45-ad51-c602a02274c0.png">
+<img width="1440" alt="Delete Postman" src="https://user-images.githubusercontent.com/97948282/160137621-59caaedf-34ff-496c-8a92-880eaf3ec8de.png">
+<img width="1440" alt="MySQL Data Showing" src="https://user-images.githubusercontent.com/97948282/160137625-e066e81b-c51f-4185-869a-a5978ec72146.png">
+<img width="1440" alt="Create 4 Postman" src="https://user-images.githubusercontent.com/97948282/160137627-b4c57859-681b-478f-809d-805753e16839.png">
+<img width="1440" alt="Create 3 Postman" src="https://user-images.githubusercontent.com/97948282/160137628-03755f52-5843-4e68-a2e0-e88bf6824205.png">
+<img width="1440" alt="Create 2 Postman" src="https://user-images.githubusercontent.com/97948282/160137629-6d956b7f-2af8-4f44-bb44-6af5fc1004dd.png">
+<img width="1440" alt="Create 1 Postman" src="https://user-images.githubusercontent.com/97948282/160137632-a5a5e9c3-b500-4f68-818f-ea94357fc108.png">
+
+
+
 The link to my Jira board:
