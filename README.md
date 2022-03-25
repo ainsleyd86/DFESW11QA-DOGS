@@ -46,6 +46,7 @@ Screenshots:
 <img width="1440" alt="Create 3 Postman" src="https://user-images.githubusercontent.com/97948282/160137628-03755f52-5843-4e68-a2e0-e88bf6824205.png">
 <img width="1440" alt="Create 2 Postman" src="https://user-images.githubusercontent.com/97948282/160137629-6d956b7f-2af8-4f44-bb44-6af5fc1004dd.png">
 <img width="1440" alt="Create 1 Postman" src="https://user-images.githubusercontent.com/97948282/160137632-a5a5e9c3-b500-4f68-818f-ea94357fc108.png">
+<img width="1440" alt="Test Coverage IntelliJ" src="https://user-images.githubusercontent.com/97948282/160148339-4c7d64ee-bc9c-43fd-b460-916cb697e071.png">
 
 ----------
 The link to my Jira board:
